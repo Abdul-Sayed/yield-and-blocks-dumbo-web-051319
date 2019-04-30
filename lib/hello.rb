@@ -8,6 +8,6 @@ end
 
 # call your method here!
 
-hello_t(elem) { |elem|
+hello_t(["Tim", "Tom", "Jim"]  ) { |name|
   
 }
