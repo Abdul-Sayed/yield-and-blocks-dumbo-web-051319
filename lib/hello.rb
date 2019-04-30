@@ -1,10 +1,15 @@
 def hello_t(array)
   i = 0 
   while i < array.length 
-    yield(array[i])
-    i +=1 
+		if (yield(array[i]) == nil)
+			puts "Hey! No block was given!"
+			return
+		else
+			yield(array[i])
+			i +=1 
+		end
   end
-  return array
+	return array
 end
 
 # call your method here!
