@@ -9,5 +9,5 @@ end
 # call your method here!
 
 hello_t(["Tim", "Tom", "Jim"]  ) { |name|
-  
+  puts "Hi, #{name}" 
 }
